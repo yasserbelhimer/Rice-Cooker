@@ -4,8 +4,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F2D4D5;
-  color: #48120C;
+  background-color: #f2d4d5;
+  color: #48120c;
 }
 
 * {
@@ -29,7 +29,7 @@ html {
 
 .cooker:after {
   position: absolute;
-  content: '';
+  content: "";
   width: 7rem;
   height: 2rem;
   background-color: #626d74;
@@ -42,7 +42,7 @@ html {
 
 .cooker:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 7rem;
   height: 2rem;
   background-color: #626d74;
@@ -70,7 +70,7 @@ html {
 
 .lid:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 5.5rem;
   height: 3.5rem;
   border-radius: 1.5rem;
@@ -115,4 +115,14 @@ html {
 
 #tr {
   size: 50px;
+}
+.screen {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 30px 30px 0px 30px;
+  height: 130px;
+  background-color: #4d4d00;
+}
+.power-on{
+  background-color: #ffffcc;
 }
